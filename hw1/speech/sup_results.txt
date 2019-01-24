@@ -1,0 +1,85 @@
+Reference
+1. scikit-learn.org
+
+Results -Sup
+<------------------------------------------------>
+--> 1. Changing C value (Inverse of regularization strength)
+
+C = 1.0 (dry run)
+    Evaluating
+  Accuracy 0.9832951945080092
+  Accuracy 0.4082125603864734
+  Kaggle = 0.41640
+
+C = 0.1
+    Evaluating
+  Accuracy 0.6169336384439359
+  Accuracy 0.39371980676328505
+
+C = 0.5
+    Evaluating
+  Accuracy 0.9366132723112128
+  Accuracy 0.41545893719806765
+
+C = 0.75
+    Evaluating
+  Accuracy 0.9711670480549199
+  Accuracy 0.4106280193236715
+
+C = 0.9
+    Evaluating
+  Accuracy 0.9787185354691076
+  Accuracy 0.4106280193236715
+
+C = 0.8
+    Evaluating
+  Accuracy 0.9745995423340961
+  Accuracy 0.41304347826086957
+  Kaggle 0.41645
+
+C = 0.7
+    Evaluating
+  Accuracy 0.9679633867276888
+  Accuracy 0.41304347826086957
+  Kaggle 0.41696
+
+C = 0.65
+    Evaluating
+  Accuracy 0.9633867276887872
+  Accuracy 0.41304347826086957
+
+C = 0.6
+    Evaluating
+  Accuracy 0.9578947368421052
+  Accuracy 0.41545893719806765
+  Kaggle 0.41737
+
+C = 0.55
+    Evaluating
+  Accuracy 0.9489702517162472
+  Accuracy 0.41304347826086957
+
+--> Conclusion: C = 0.6
+<------------------------------------------------>
+--> 2. class_weight = None(default), balanced (assumption: C = 0.6)
+
+class_weight(default)
+    Evaluating
+  Accuracy 0.9578947368421052
+  Accuracy 0.41545893719806765
+
+class_weight = balanced
+    Evaluating
+  Accuracy 0.9189931350114416
+  Accuracy 0.3695652173913043
+
+--> Conclusion: class_weight(default)
+<------------------------------------------------>
+--> 3. (assumption: C = 0.6, class_weight = None)
+Removing stop words
+    Evaluating
+  Accuracy 0.9359267734553776
+  Accuracy 0.4178743961352657
+
+<------------------------------------------------>
+
