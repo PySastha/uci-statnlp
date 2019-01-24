@@ -166,7 +166,7 @@ if __name__ == "__main__":
 	#print("\nReading unlabeled data")
 	#unlabeled = read_unlabeled(tarfname, speech)
 
-	#print("\nWriting pred file")
+	#print("\nWriting pred file"
 	#write_pred_kaggle_file(unlabeled, cls, "speech-pred.csv", speech)
 
 	'''You can't run this since you do not have the true labels'''
